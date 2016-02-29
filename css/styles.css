@@ -11,6 +11,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: center; }
+  header .menu-icon {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 20px; }
+    header .menu-icon .line {
+      width: 18px;
+      height: 1px;
+      background: #ff5a5f;
+      margin-top: 3px; }
+      header .menu-icon .line:first-of-type {
+        margin: none; }
 
 #hero {
   color: white;
