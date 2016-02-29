@@ -4,6 +4,7 @@ body {
   background: #edefed;
   font-family: 'Karla', $helvetica;
   margin: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -28,5 +29,30 @@ header {
   }
   p {
     margin: 5px 0 20px;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      height: 40px;
+      border: none;
+      &[type=text] {
+        width: 85%;
+        // padding: 5px 0;
+        text-align: center;
+        font-size: .9rem;
+        color: #565a5c;
+        border-radius: 3px 0 0 3px;
+      }
+    }
+    button {
+      width:35px;
+      background: #ff5a5f;
+      height: 42px;
+      border-radius: 0 3px 3px 0;
+      border: none;
+      color: white;
+    }
   }
 }
