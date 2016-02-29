@@ -1,10 +1,6 @@
 @import 'bourbon/bourbon';
-
-%flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@import '_extends';
+@import '_mixins';
 
 body {
   background: #edefed;
@@ -117,4 +113,28 @@ header {
       }
     }
   }
+}
+
+#weekend {
+  text-align: center;
+  color: #565a5c;
+  h2 {
+    margin: 100px 0 0;
+    font-size: 1.8em;
+  }
+  p {
+    margin: 5px 0 40px;
+  }
+  .card {
+    width: 100%;
+    height: 344px;
+    color: white;
+    @extend %flex-center;
+    h2 {
+      margin: 0;
+    }
+  }
+  @include card(seattle);
+  @include card(victoria);
+  @include card(vancouver);
 }

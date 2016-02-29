@@ -1,4 +1,4 @@
-#hero form, #live-there #img {
+#hero form, #live-there #img, #weekend .card {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -91,5 +91,26 @@ header {
       #live-there #start p a {
         color: #ff5a5f;
         text-decoration: none; }
+
+#weekend {
+  text-align: center;
+  color: #565a5c; }
+  #weekend h2 {
+    margin: 100px 0 0;
+    font-size: 1.8em; }
+  #weekend p {
+    margin: 5px 0 40px; }
+  #weekend .card {
+    width: 100%;
+    height: 344px;
+    color: white; }
+    #weekend .card h2 {
+      margin: 0; }
+  #weekend #seattle {
+    background: url("../img/seattle.jpg") center/cover no-repeat; }
+  #weekend #victoria {
+    background: url("../img/victoria.jpg") center/cover no-repeat; }
+  #weekend #vancouver {
+    background: url("../img/vancouver.jpg") center/cover no-repeat; }
 
 /*# sourceMappingURL=styles.css.map */

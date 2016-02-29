@@ -1,0 +1,5 @@
+@mixin card($place) {
+  ##{$place} {
+    background: url('../img/#{$place}.jpg') center/cover no-repeat;
+  }
+}
