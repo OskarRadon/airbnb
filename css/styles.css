@@ -1,8 +1,18 @@
+#hero form, #live-there #img {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 body {
   background: #edefed;
   font-family: "Karla", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin: 0;
   box-sizing: border-box; }
+  body button {
+    background: #ff5a5f;
+    border: none;
+    border-bottom: 1px solid #e00007;
+    color: white; }
 
 header {
   background: white;
@@ -36,26 +46,50 @@ header {
     line-height: 1em; }
   #hero p {
     margin: 5px 0 20px; }
-  #hero form {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    #hero form input {
-      height: 40px;
-      border: none; }
-      #hero form input[type=text] {
-        width: 85%;
-        text-align: center;
-        font-size: .9rem;
-        color: #565a5c;
-        border-radius: 3px 0 0 3px; }
-    #hero form button {
-      width: 35px;
-      background: #ff5a5f;
-      height: 42px;
-      border-radius: 0 3px 3px 0;
-      border: none;
-      border-bottom: 1px solid #e00007;
-      color: white; }
+  #hero form input {
+    height: 40px;
+    border: none; }
+    #hero form input[type=text] {
+      width: 85%;
+      text-align: center;
+      font-size: .9rem;
+      color: #565a5c;
+      border-radius: 3px 0 0 3px; }
+  #hero form button {
+    width: 35px;
+    height: 42px;
+    border-radius: 0 3px 3px 0; }
+
+#live-there {
+  width: 100%;
+  margin: 50px 0;
+  padding: 0 12px;
+  text-align: center;
+  width: calc(100% - 24px); }
+  #live-there #img {
+    height: 344px;
+    padding: 0;
+    background: url(../img/jungle.jpg) center/cover no-repeat;
+    color: white;
+    font-size: 1.9em; }
+  #live-there #start {
+    height: 200px;
+    background: white;
+    color: #565a5c;
+    padding-top: 80px; }
+    #live-there #start b {
+      font-size: 1.2em; }
+    #live-there #start h2 {
+      font-size: 2em;
+      margin: 15px; }
+    #live-there #start button {
+      font-size: .8em;
+      padding: 10px 20px;
+      border-radius: 3px; }
+    #live-there #start p {
+      font-size: .8em; }
+      #live-there #start p a {
+        color: #ff5a5f;
+        text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */

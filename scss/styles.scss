@@ -1,10 +1,22 @@
 @import 'bourbon/bourbon';
 
+%flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   background: #edefed;
   font-family: 'Karla', $helvetica;
   margin: 0;
   box-sizing: border-box;
+  button {
+    background: #ff5a5f;
+    border: none;
+    border-bottom: 1px solid #e00007;
+    color: white;
+  }
 }
 
 header {
@@ -46,9 +58,7 @@ header {
     margin: 5px 0 20px;
   }
   form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-center;
     input {
       height: 40px;
       border: none;
@@ -62,12 +72,49 @@ header {
     }
     button {
       width:35px;
-      background: #ff5a5f;
       height: 42px;
       border-radius: 0 3px 3px 0;
-      border: none;
-      border-bottom: 1px solid #e00007;
-      color: white;
+    }
+  }
+}
+
+#live-there {
+  width: 100%;
+  margin: 50px 0;
+  padding: 0 12px;
+  text-align: center;
+  width: calc(100% - 24px);
+  #img {
+    @extend %flex-center;
+    height: 344px;
+    padding: 0;
+    background: url(../img/jungle.jpg) center/cover no-repeat;
+    color: white;
+    font-size: 1.9em;
+  }
+  #start {
+    height: 200px;
+    background: white;
+    color: #565a5c;
+    padding-top: 80px;
+    b {
+      font-size: 1.2em;
+    }
+    h2 {
+      font-size: 2em;
+      margin: 15px;
+    }
+    button {
+      font-size: .8em;
+      padding: 10px 20px;
+      border-radius: 3px;
+    }
+    p {
+      font-size: .8em;
+      a {
+        color: #ff5a5f;
+        text-decoration: none;
+      }
     }
   }
 }
