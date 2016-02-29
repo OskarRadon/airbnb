@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>AirBnB</title>
 </head>
@@ -15,8 +16,10 @@
     <div id="hero">
       <h1>WELCOME HOME</h1>
       <p>Rent unique places to stay from local hosts in 190+ countries.</p>
-      <input type="text" name="place" value="Where do you want to go?">
-      <input type="button" name="search" value="">
+      <form id="hero-search">
+        <input type="text" name="place" value="Where do you want to go?">
+        <button type="button" name="button"><i class="fa fa-search fa-lg"></i></button>
+      </form>
     </div>
 
   </main>
