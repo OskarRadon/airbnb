@@ -1,17 +1,17 @@
 ## Sass Code Review
 
-#### Epicodus CSS week 3 code review project
+**Epicodus CSS week 3 code review project**
 By **Oskar Radon**
 
-### Description
+#### Description
 
 AirBnB's landing page remade with Sass and flexbox!
 
-### Technologies Used
+#### Technologies Used
 
 Sass, CSS, HTML
 
-### License
+#### License
 
 *MIT License*
 
