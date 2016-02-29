@@ -1,0 +1,17 @@
+body {
+  background: #edefed;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+header {
+  background: white;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#hero {
+  color: white;
+  background: url(../img/hero.jpg) center/100% no-repeat; }
+
+/*# sourceMappingURL=styles.css.map */
