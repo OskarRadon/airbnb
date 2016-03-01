@@ -1,4 +1,4 @@
-#hero form, #live-there #img, .card {
+#hero form, #live-there #img, .card, footer #icons .icon {
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -144,5 +144,41 @@ header {
     background: url("../img/new-york.jpg") center/cover no-repeat; }
   #explore #london {
     background: url("../img/london.jpg") center/cover no-repeat; }
+
+footer {
+  height: 355px;
+  background: #2b2d2e;
+  text-align: center;
+  color: #82888a; }
+  footer select {
+    width: calc(100% - 24px);
+    height: 45px;
+    margin: 10px 12px;
+    background: #565a5c;
+    color: white;
+    border: none;
+    font-size: 1em; }
+    footer select:first-of-type {
+      margin-top: 50px; }
+  footer nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; }
+    footer nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px; }
+  footer #icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; }
+    footer #icons .icon {
+      width: 36px;
+      height: 36px;
+      margin: 0 10px;
+      border-radius: 100%;
+      border: 1px solid rgba(255, 255, 255, 0.2); }
+      footer #icons .icon i {
+        color: white; }
 
 /*# sourceMappingURL=styles.css.map */

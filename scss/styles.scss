@@ -177,3 +177,48 @@ header {
   @include card(new-york);
   @include card(london);
 }
+
+footer {
+  height: 355px;
+  background: #2b2d2e;
+  text-align: center;
+  color: #82888a;
+  select {
+    width: calc(100% - 24px);
+    height: 45px;
+    margin: 10px 12px;
+    background: #565a5c;
+    color: white;
+    border: none;
+    font-size: 1em;
+    &:first-of-type {
+      margin-top: 50px;
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 8px;
+    }
+  }
+  #icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    .icon {
+      @extend %flex-center;
+      width: 36px;
+      height: 36px;
+      margin: 0 10px;
+      border-radius: 100%;
+      border: 1px solid rgba(255,255,255,0.2);
+      i {
+        color: white;
+      }
+    }
+  }
+}
