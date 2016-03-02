@@ -1,6 +1,6 @@
-## Sass Code Review
+## AirBnB Remake
 
-**Epicodus CSS week 3 code review project**
+**Epicodus CSS week 4**
 
 By **Oskar Radon**
 
